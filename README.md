@@ -8,7 +8,7 @@ This repository contains the code for the paper "*Evolutionary optimization of s
 
 To reproduce the paper's results, simply:
 
-```python
+```bash
 git clone https://github.com/LuisMiguelMoreno/multisensor-deployment
 cd multisensor-deployment
 pip install -r requirements.txt
@@ -16,7 +16,7 @@ pip install -r requirements.txt
 
 Each experiment can be reproduced by running its corresponding script. The scripts are contained in the `experiments` folder and can be run as follows:
 
-```python
+```bash
 python experiments/Experiment_2_EA.py
 python experiments/Experiment_2_GRASP.py
 ```
