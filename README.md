@@ -1,2 +1,2 @@
 # multisensor-deployment
-Multi-semsor Deployment for indoor surveillance environments with security levels
+Multi-sensor Deployment for indoor surveillance environments with security levels
