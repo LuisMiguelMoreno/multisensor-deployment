@@ -1,0 +1,6 @@
+Nombre;Identificador;Distancia (m);Angulo (grados);Coste (euros)
+Camara Gran Angular;1;30;180;42
+Camara Angulo Estrecho;2;60;30;112
+Sensor Volumetrico;3;18;90;42
+Detector sismico;4;5;360;169
+Detector humo;5;4;360;6
