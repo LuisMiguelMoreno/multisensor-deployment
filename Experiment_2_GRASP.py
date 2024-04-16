@@ -11,22 +11,20 @@ import random
 from GRASP import GRASPClass
 
 
-Escenario = "\Escenario 3"
-Carpeta = r"C:\Users\LuisMi-ISDEFE\OneDrive - Universidad de Alcala\Universidad\Doctorado\Papers\Paper 2 MCCE\Resultados\Experimento 2 (GRASP)" + Escenario
+Escenario = "\Escenario 4"
+Carpeta = r"" + Escenario # Añadir carpeta
 df_escenario = pd.read_csv(Carpeta + "\Puntos.csv", encoding="utf-8", sep=";")
 df_dispositivos = pd.read_csv(Carpeta + "\Dispositivos.csv", encoding="utf-8", sep=";")
-# df_solucion = pd.read_csv(Carpeta + "\Solucion CPLEX.csv").to_numpy()
-# individuo = 2**4*df_solucion[:,3]+2**3*df_solucion[:,4]+2**2*df_solucion[:,5]+2**1*df_solucion[:,6]+2**0*df_solucion[:,7]
-# individuo = individuo.astype(int)
+
 # Seeds = np.arange(2023, 2033, 1)
 # Seeds = np.arange(2033, 2043, 1)
 Seeds = np.arange(2023, 2053, 1)
-# Seeds = [2023]
 
 
-iter_greedy=100
-iter_local_search=1000
-verbose = False
+
+iter_greedy=500
+iter_local_search=200
+verbose = True
 
 for seed in Seeds:
     random.seed(int(seed))
