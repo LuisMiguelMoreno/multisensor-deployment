@@ -1,4 +1,4 @@
-![](figure.png)
+![](multimedia/figure.png)
 
 # multisensor-deployment
 
