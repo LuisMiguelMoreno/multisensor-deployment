@@ -1,9 +1,8 @@
 # -*- coding: utf-8 -*-
 """
-Created on Thu Apr 11 12:41:00 2024
-
-@author: LuisMi-ISDEFE
+@author: Luis Miguel Moreno Saavedra
 """
+
 import numpy as np
 import random
 import pandas as pd
@@ -14,8 +13,6 @@ from matplotlib.patches import Wedge
 from Aux_Func import CalcularDistanciaAngulosVisionPuntos
 
 from Fitness_Function import Fitness_ang_vision, Ptos_Cubiertos_Dispositivo
-
-
 
 class GRASPClass:
     def __init__(self, 

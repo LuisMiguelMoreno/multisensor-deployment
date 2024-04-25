@@ -1,9 +1,8 @@
 # -*- coding: utf-8 -*-
 """
-Created on Fri Apr 19 16:58:26 2024
-
-@author: LuisMi-ISDEFE
+@author: Luis Miguel Moreno Saavedra
 """
+
 import numpy as np
 import pandas as pd
 import time
@@ -11,7 +10,6 @@ import time
 from Aux_Func import CalcularDistanciaAngulosVisionPuntos
 
 from Fitness_Function import Fitness_ang_vision, Ptos_Cubiertos_Dispositivo
-
 
 class RecursiveClass:
     def __init__(self, 

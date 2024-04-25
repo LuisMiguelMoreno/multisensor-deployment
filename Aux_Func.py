@@ -186,8 +186,8 @@ def CalcularDistanciaAngulosVisionPuntos(CoordPtosDispositivos: np.array,
             Matriz_Vision[ind_disp,ind_vig] = Comprobar_vision([fil_ini, col_ini],[fil_end, col_end], Matriz_global)
             
     # Reparación
-    # for i, fila in enumerate(Matriz_Vision):
-        # Matriz_Vision[i,:] = Reparacion(Matriz_Vision[i,:], CoordPtosVigilancia, Matriz_global)
-        # Matriz_Vision[i,:] = Reparacion(Matriz_Vision[i,:], CoordPtosVigilancia, Matriz_global)
-        # Matriz_Vision[i,:] = Reparacion(Matriz_Vision[i,:], CoordPtosVigilancia, Matriz_global)
+    for i, fila in enumerate(Matriz_Vision):
+        Matriz_Vision[i,:] = Reparacion(Matriz_Vision[i,:], CoordPtosVigilancia, Matriz_global)
+        Matriz_Vision[i,:] = Reparacion(Matriz_Vision[i,:], CoordPtosVigilancia, Matriz_global)
+        Matriz_Vision[i,:] = Reparacion(Matriz_Vision[i,:], CoordPtosVigilancia, Matriz_global)
     return Matriz_Distancia, Matriz_Angulo, Matriz_Vision

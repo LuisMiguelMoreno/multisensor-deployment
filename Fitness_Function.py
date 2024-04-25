@@ -1,11 +1,10 @@
 # -*- coding: utf-8 -*-
 """
 @author: Luis Miguel Moreno Saavedra
-
 """
+
 import numpy as np
 import pandas as pd
-
 
 def Fitness(individuo: np.array, 
             CoordPtosDispositivos: np.array, 
